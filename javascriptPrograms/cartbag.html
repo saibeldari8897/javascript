@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CartBag</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <button id="button" onclick=" bag++; 
+    document.querySelector('#bag').innerText='your bag has '+bag+ ' items';
+    ">Add to bag</button>
+    <button id="button" onclick="wishlist++
+    document.querySelector('#wishlist').innerText='your wishlist has '+wishlist+' items';
+    ">Add to wishlist</button>
+    <button id="button" onclick="alert('redireting to the bag')">Go to bag</button>
+    <p id="bag"></p>
+    <p id="wishlist"></p>
+    <script>
+        let bag=0;
+        let wishlist=0;
+        document.querySelector('#bag').innerText='your bag has '+bag+' items';
+        document.querySelector('#wishlist').innerText='your wishlist has '+wishlist+' items';
+    </script>
+    
+</body>
+</html>

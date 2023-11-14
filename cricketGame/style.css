@@ -1,0 +1,16 @@
+.button{
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    background-color: lightgreen;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#image{
+    height: 60px;
+    width: 60px;
+}
+body{
+    text-align: center;
+}
