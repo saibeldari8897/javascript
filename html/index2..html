@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid black;
+      box-sizing: border-box;
+    }
+    button{
+        width: 100%;
+        padding: 12px 20px;
+        background-color: green;
+        position: relative;
+        margin: 8px 0;
+    }
+    .cancelbtn{
+        background-color: red;
+        position: relative;
+        width: auto;
+    }
+    </style>
+    <div>
+        <label for="uname">
+            <p>Username</p>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+        </label>
+        <label for="psw">
+            <p>Password</p>
+            <input type="text" placeholder="Enter Password" name="psw" required>
+        </label>
+        <button type="submit">Login</button>
+        <button type="cancel" class="cancelbtn">cancel</button>
+    </div>
+</body> 
+</html>
